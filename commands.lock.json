@@ -1,0 +1,80 @@
+[
+	{
+		"name": "eval",
+		"description": "Evaluate JavaScript code.",
+		"options": [
+			{
+				"name": "code",
+				"description": "The code to execute",
+				"type": 3,
+				"required": true
+			},
+			{
+				"name": "hide",
+				"description": "hide the command output from the outside world",
+				"type": 5
+			}
+		],
+		"contexts": [0, 1, 2],
+		"integration_types": [0, 1]
+	},
+	{
+		"name": "add",
+		"description": "Adds numbers together.",
+		"options": [
+			{
+				"name": "first",
+				"description": "A number to include in the sum.",
+				"type": 4,
+				"required": true
+			},
+			{
+				"name": "second",
+				"description": "Another number to include in the sum.",
+				"type": 4,
+				"required": true
+			},
+			{
+				"name": "third",
+				"description": "Another number to include in the sum.",
+				"type": 4,
+				"required": false
+			},
+			{
+				"name": "fourth",
+				"description": "Another number to include in the sum.",
+				"type": 4,
+				"required": false
+			},
+			{
+				"name": "fifth",
+				"description": "Another number to include in the sum.",
+				"type": 4,
+				"required": false
+			}
+		],
+		"contexts": [0, 1, 2],
+		"integration_types": [0, 1]
+	},
+	{
+		"name": "sqrt",
+		"description": "Finds the square root of a number.",
+		"options": [
+			{
+				"name": "number",
+				"description": "The number to find the square root of.",
+				"type": 4,
+				"required": true,
+				"autocomplete": true
+			}
+		],
+		"contexts": [0, 1, 2],
+		"integration_types": [0, 1]
+	},
+	{
+		"name": "ping",
+		"description": "Ensures the bot is responding to commands.",
+		"contexts": [0, 1, 2],
+		"integration_types": [0, 1]
+	}
+]

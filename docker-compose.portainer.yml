@@ -1,0 +1,6 @@
+services:
+    bot:
+        image: ghcr.io/fyko/discord-bot-template:latest
+        restart: unless-stopped
+        env_file:
+            - stack.env

@@ -1,0 +1,11 @@
+.vscode
+dist
+node_modules
+.env*
+.gitignore
+.prettier*
+commands.lock.json
+Dockerfile
+eslint.config.js
+README.md
+tsconfig.eslint.json
